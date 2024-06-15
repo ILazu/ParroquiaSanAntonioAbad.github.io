@@ -1,9 +1,40 @@
-h1, h2, h3, li {font-family: Times New Roman, Arial, sans-serif}
-p {font-family: Times New Roman, Arial, sans-serif}
+h1, h2, h3 {
+  font-family: Times New Roman, Arial, sans-serif;
+  font-size: 2.136vw;
+}
+
+h2 {
+  font-family: Times New Roman, Arial, sans-serif;
+  font-size: 1.899vw;
+}
+
+h3 {
+  font-family: Times New Roman, Arial, sans-serif;
+  font-size: 1.6875vw;
+}
+
+p, li {
+  font-family: Times New Roman, Arial, sans-serif;
+  font-size: 1.5vw;
+}
+
 img {
   width: 100%;
   max-width: 75%;
   height: auto;
   object-fit: contain;
 }
-button {font-family: Times New Roman, Arial, sans-serif; background-color: tan; border-radius: 10px}
+
+iframe {
+  width: 60vw;
+  max-width: 75%;
+  height: 45vw;
+  object-fit: contain;
+}
+
+button {
+  font-family: Times New Roman, Arial, sans-serif;
+  font-size: 1.5vw; 
+  background-color: tan; 
+  border-radius: 10px
+}
